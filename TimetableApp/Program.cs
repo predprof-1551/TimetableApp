@@ -1,3 +1,5 @@
+Console.WriteLine("111");
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
