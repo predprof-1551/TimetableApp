@@ -1,3 +1,6 @@
+Console.WriteLine("Leha");
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
