@@ -68,6 +68,8 @@ namespace TimetableApp.Data.Database
 
                 entity.ToTable("Timetable");
 
+                entity.Property(e => e.Date).HasColumnType("date");
+
                 entity.Property(e => e.Description).HasMaxLength(2048);
             });
 
